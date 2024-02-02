@@ -5,7 +5,7 @@ export const metadata = {
   title: "Home",
 };
 
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
+const API_URL: string = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getMovies() {
   // 시간 소요되도록 만든 임시코드

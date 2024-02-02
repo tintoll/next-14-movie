@@ -1,6 +1,6 @@
-import { API_URL } from "../app/(home)/page";
 import styles from "../styles/movie-info.module.css";
 
+const API_URL: string = "https://nomad-movies.nomadcoders.workers.dev/movies";
 export async function getMovie(id: string) {
   // await new Promise((resolve) => setTimeout(resolve, 4000));
   const URL = `${API_URL}/${id}`;
